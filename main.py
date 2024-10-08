@@ -1,17 +1,18 @@
-from flask import Flask, jsonify
+# from flask import Flask, jsonify
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
-@app.route('/')
-def home():
-    return jsonify({"message": "Welcome to the API!"}), 200
+# @app.route('/')
+# def home():
+#     return jsonify({"message": "Welcome to the API!"}), 200
 
-@app.route('/about')
-def about():
-    return jsonify({"version": "1.0", "author": "Yagmur Ozden"}), 200
+# @app.route('/about')
+# def about():
+#     return jsonify({"version": "1.0", "author": "Yagmur Ozden"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    print('Hello Github Actions!')
+    # app.run(debug=True)
 
 
 # First, you need to install Flask using pip:
